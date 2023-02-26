@@ -1,3 +1,33 @@
+# Tradev Development Strategy
+
+## Phase One: Simple Implementation
+
+1. Obtain & Clean S&P500 data
+2. First Trading Strategy: Use simple classification neural network to predict movements in the market
+3. Implement optimal bet sizing strategy
+4. Implement feature importance analysis
+5. Implement various different backtesting methods and compare
+6. Generate trading order
+7. Connect to brokerage and make a paper trade using predictions
+
+## Phase Two and Beyond
+
+1. Obtain different dataset types to explore different investment universes: ETF, Options,...
+2. Expand corpus of trading strategies from one to many
+    - Strategies listed below
+    - Take into account transaction costs
+    - Take into account trading capacity
+    - Take into account computing time
+3. Implement rigorous handling of potential biases(not sure how to do this yet)
+4. Implement rigorous backtesting framework
+5. Create method to find optimal trading order from the ensemble of signals generated from trading strategies
+6. Automate the pipelines action so it can run on daily live data: 
+    - Use a server
+    - Data extraction, cleaning and input into strategies
+    - Generate buy and sell orders
+    - Interact with brokerage to complete order
+7. Trade with real capital
+
 # Tradev
 
 Algorithmic trading pipeline. From data to trade order.
@@ -14,10 +44,17 @@ The Meta-Strategy:
 
 ## 2. Trading Srategies
 
+- numpy
+- sklearn
+- keras, tensorflow
+
 - Apply a range of trading strategies to data, to generate buy and sell orders
+    - Neural Network Classification
     - Momentum
     - Mean Reversion
-    - Neural Network
+    - SMA
+    - Linear Regression
+    - Logistic Regression
     - Statistical Arbitrage
     - Sentiment Analysis
     - Market Making
@@ -26,9 +63,7 @@ The Meta-Strategy:
 
 ## 3. Feature Importance
 
-
 ## 4. Bet Sizing
-
 
 ## 5. Backtesting
 
@@ -36,14 +71,15 @@ The Meta-Strategy:
  - Combinatorial Purged Cross-Validation
  - Backtesting on synthetic data
 
-
-
 ## 3. Portfolio
+
 - Create an optimal portfolio over the trading strategy results
 
 ## 4. Brokerage
+
 - Automate interaction with brokerage, sending order
 
 ## 5. Process Automation
+
 - Automate the process to execute buy and sell orders
 
