@@ -23,7 +23,20 @@ The Meta-Strategy:
     - Market Making
         - Trading Execution Algorithms
         - Sniffing Algorithms(High Frequency Trading)
+
+## 3. Feature Importance
+
+
+## 4. Bet Sizing
+
+
+## 5. Backtesting
+
 - BACKTEST using multiple paradigms
+ - Combinatorial Purged Cross-Validation
+ - Backtesting on synthetic data
+
+
 
 ## 3. Portfolio
 - Create an optimal portfolio over the trading strategy results
