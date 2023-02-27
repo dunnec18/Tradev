@@ -2,15 +2,18 @@
 
 ## Phase One: Simple Implementation
 
-1. Obtain & Clean S&P500 data
-2. First Trading Strategy: Use simple classification neural network to predict movements in the market
+- Set up Virtual Environment first
+1. Obtain & Clean FTSE data - Complete
+2. First Trading Strategy: Use simple classification neural network to predict movements in the market - Complete
 3. Implement optimal bet sizing strategy
 4. Implement feature importance analysis
 5. Implement various different backtesting methods and compare
 6. Generate trading order
 7. Connect to brokerage and make a paper trade using predictions
+- Once complete this forms version zero in main branch, after which a dev branch will be created for further development
 
 ## Phase Two and Beyond
+
 
 1. Obtain different dataset types to explore different investment universes: ETF, Options,...
 2. Expand corpus of trading strategies from one to many
@@ -27,6 +30,12 @@
     - Generate buy and sell orders
     - Interact with brokerage to complete order
 7. Trade with real capital
+8. Operations:
+    - Add user guide: Installation, set-up, basic tutorial
+    - Docs: Sphinx
+    - Workflow: Github Actions
+    - Virtual Environment
+    - Unit Tests
 
 # Tradev
 
