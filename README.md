@@ -8,8 +8,9 @@
 3. Implement optimal bet sizing strategy
 4. Implement feature importance analysis
 5. Implement various different backtesting methods and compare
-6. Generate trading order
-7. Connect to brokerage and make a paper trade using predictions
+6. Implement the Meta-Strategy: mass produce classification models and pick the best performers? 
+7. Generate trading order
+8. Connect to brokerage and make a paper trade using predictions
 - Once complete this forms version zero in main branch, after which a dev branch will be created for further development
 
 ## Phase Two and Beyond
