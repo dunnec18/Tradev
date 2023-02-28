@@ -2,15 +2,17 @@
 
 ## Phase One: Simple Implementation
 
-- Set up Virtual Environment first
-1. Obtain & Clean FTSE data - Complete
-2. First Trading Strategy: Use simple classification neural network to predict movements in the market - Complete
-3. Implement optimal bet sizing strategy
-4. Implement feature importance analysis
-5. Implement various different backtesting methods and compare
-6. Implement the Meta-Strategy: mass produce classification models and pick the best performers? 
-7. Generate trading order
-8. Connect to brokerage and make a paper trade using predictions
+0. Set up Virtual Environment first - DONE
+1. Obtain & Clean FTSE data - DONE
+2. First Trading Strategy: Use simple classification neural network to predict movements in the market - DONE
+3. Implement basic historical simulation backstesting
+4. Implement optimal bet sizing strategy
+5. Implement feature importance analysis
+6. Implement various different backtesting methods and compare
+7. Implement the Meta-Strategy: mass produce classification models and pick the best performers? 
+8. Generate trading order
+9. Connect to brokerage and make a paper trade using predictions
+
 - Once complete this forms version zero in main branch, after which a dev branch will be created for further development
 
 ## Phase Two and Beyond
