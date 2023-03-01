@@ -1,5 +1,8 @@
 # Tradev Development Strategy
 
+KISS: Keep It Simple Stupid
+YAGNI: You Aint Going To Need It
+
 ## Phase One: Simple Implementation
 
 0. Set up Virtual Environment first - DONE
