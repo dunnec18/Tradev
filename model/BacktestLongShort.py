@@ -34,10 +34,11 @@ class BacktestLongShort(BacktestBase):
         self.data['SMA1'] = self.data['price'].rolling(SMA1).mean() 
         self.data['SMA2'] = self.data['price'].rolling(SMA2).mean()
 
-        for bar in range(SMA2, len(self.data)): if self.position in [0, -1]:
-            if self.data['SMA1'].iloc[bar] > self.data['SMA2'].iloc[bar]: 
-                self.go_long(bar, amount='all')
-                self.position = 1 # long position
+        for bar in range(SMA2, len(self.data)): 
+            if self.position in [0, -1]:
+                if self.data['SMA1'].iloc[bar] > self.data['SMA2'].iloc[bar]: 
+                    self.go_long(bar, amount='all')
+                    self.position = 1 # long position
             if self.position in [0, 1]:
                 if self.data['SMA1'].iloc[bar] < self.data['SMA2'].iloc[bar]:
                     self.go_short(bar, amount='all')
