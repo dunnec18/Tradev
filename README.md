@@ -1,9 +1,9 @@
 # Tradev Development Strategy
 
-KISS: Keep It Simple Stupid
-YAGNI: You Aint Going To Need It
 
 ## Phase One: Simple Implementation
+
+KISS: "Keep It Simple Stupid"
 
 0. Set up Virtual Environment first - DONE
 1. Obtain & Clean FTSE data - DONE
