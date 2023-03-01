@@ -8,13 +8,14 @@ YAGNI: You Aint Going To Need It
 0. Set up Virtual Environment first - DONE
 1. Obtain & Clean FTSE data - DONE
 2. First Trading Strategy: Use simple classification neural network to predict movements in the market - DONE
-3. Implement basic historical simulation backstesting - DONE
-4. Implement optimal bet sizing strategy
-5. Implement feature importance analysis
-6. Implement various different backtesting methods and compare
-7. Implement the Meta-Strategy: mass produce classification models and pick the best performers? 
-8. Generate trading order
-9. Connect to brokerage and make a paper trade using predictions
+3. Implement SMA, Momentum and Mean-Reversion trading strategies
+4. Implement basic historical simulation backstesting - DONE
+5. Implement optimal bet sizing strategy
+6. Implement feature importance analysis
+7. Implement various different backtesting methods and compare
+8. Implement the Meta-Strategy: mass produce models and pick the best performers by sharpe ratio and other metrics.
+9. Generate trading order
+10. Connect to brokerage and make a paper trade using predictions
 
 - Once complete this forms version zero in main branch, after which a dev branch will be created for further development
 
