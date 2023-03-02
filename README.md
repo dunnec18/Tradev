@@ -8,8 +8,9 @@ KISS: "Keep It Simple Stupid"
 0. Set up Virtual Environment first - DONE
 1. Obtain & Clean FTSE data - DONE
 2. First Trading Strategy: Use simple classification neural network to predict movements in the market - DONE
-3. Implement SMA, Momentum and Mean-Reversion trading strategies
+3. Implement SMA, Momentum and Mean-Reversion trading strategies - DONE
 4. Implement basic historical simulation backstesting - DONE
+
 5. Implement optimal bet sizing strategy
 6. Implement feature importance analysis
 7. Implement various different backtesting methods and compare
